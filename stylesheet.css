@@ -1,0 +1,39 @@
+header, footer, .hero {
+background-color: #1f2937;
+}
+
+nav h1 a {
+    font-size: 24px;
+    color: #f9faf8;
+    text-decoration: none;
+}
+
+.hero h1 {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 600;
+}
+
+.hero p {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+button {
+    background-color: #3882f6;
+}
+
+.random-info h1 {
+    font-size: 36px;
+    font-weight: extra-bold;
+    color: #1f2937;
+}
+
+.inspo-quote {
+    background-color: #e5e7eb;
+}
+
+.inspo-quote h1 {
+    font-size: 36px;
+    font-style: light-italic;
+    color: #1f2937;
+}
