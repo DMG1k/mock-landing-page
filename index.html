@@ -8,6 +8,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     </head>
     <body>
+        <div class="web-container">
         <header>
             <nav>
                 <h1>
@@ -28,7 +29,7 @@
                 <div class="hero-text">
                     <h1>This website is Awesome</h1>
                     <p>
-                        This website has some text that is smaller than the text above it
+                        This website has some text that is smaller than <br>the text above it
                     </p>
                     <button>Sign Up</button>
                 </div>
@@ -37,31 +38,51 @@
         </header>
 
         <section class="random-info">
-            <h1>Random Info Section</h1>
+            <div class="random-info-heading">
+                <h1>Random Info Section</h1>
+            </div>
             
-                <ul>
-                    <li>Random Info 1</li>
-                    <li>Random Info 2</li>
-                    <li>Random Info 3</li>
-                    <li>Random Info 4</li>
-                </ul>
+            <div class="image-placeholder">
+                <img src="./resources/site-photos/colors_and_stuff.png">
+                <img src="./resources/site-photos/colors_and_stuff.png">
+                <img src="./resources/site-photos/colors_and_stuff.png">
+                <img src="./resources/site-photos/colors_and_stuff.png">
+            </div>
+            
+            <div class="random-info-blocks">
+                    
+                        <h2>Random Info 1</h2>
+                        <h2>Random Info 2</h2>
+                        <h2>Random Info 3</h2>
+                        <h2>Random Info 4</h2>
+                    
+            </div>
         </section>
 
+        <section class="quote-box">
         <div class="inspo-quote">
             <h1>This is supposed to be an inspirational quote but I will let you decide what belongs in here.</h1>
-            <p>A soon to be developer</p>
         </div>
-
-        <div class="sign-up">
-            <h1>It is now time to sign up!</h1>
-            <p>I dont know what you would be signing up for</p>
-            <button>Sign Up?</button>
+        <div class="inspo-quote-sign">
+            <p>- A soon to be developer</p>
         </div>
+    </section>
+    <section class="sign-up-position">
+        <div class="sign-up-box">
+            <div class="sign-up">
+                <h1>It is now time to sign up!</h1>
+                <p>Place holder text for signup form.</p>
+            </div>
+            <div class="sign-up-btn">
+                <button>Sign Up</button>
+            </div>
+        </div>
+    </section>
 
         <footer>
             <h1>Copyright &copy; The Odin Project 2021</h1>
         </footer>
             
-
+    </div>
     </body>
     </html>
