@@ -1,5 +1,7 @@
 * {
     margin: auto;
+    height: auto;
+    width: auto;
 }
 
 header, footer, .hero {
