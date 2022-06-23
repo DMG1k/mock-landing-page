@@ -2,12 +2,6 @@
     margin: auto;
 }
 
-.web-container{
-    width:100%;
-    min-width:1000px;
-    height:auto;
-}
-
 header, footer, .hero {
 background-color: #1f2937;
 padding: 25px 50px 50px 50px;
