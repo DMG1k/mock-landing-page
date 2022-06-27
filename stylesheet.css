@@ -4,6 +4,17 @@
     width: auto;
 }
 
+html{
+    height: 100%;
+    width: 100%;
+ }
+   
+body{
+    width: 100%;
+    height: 100%;
+}  
+   
+
 header, footer, .hero {
 background-color: #1f2937;
 padding: 25px 50px 50px 50px;
@@ -14,8 +25,9 @@ nav {
     align-items: center;
     justify-content: space-between;
     padding-bottom: 80px;
+    flex-direction: row;
+    padding-right: 50px;
 }
-
 
 
 nav h1 a {
@@ -91,7 +103,7 @@ nav h2 a {
 }
 
 .image-placeholder img {
-    height: 150px;
+    height: 81.76px;
     width: auto;
     padding-bottom: 20px;
 }
